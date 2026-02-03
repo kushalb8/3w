@@ -1,6 +1,14 @@
 {
   _id,
+  userId,
   username,
-  email,
-  password
+  text,
+  image,
+  likes: [
+    { userId, username }
+  ],
+  comments: [
+    { userId, username, comment }
+  ],
+  createdAt
 }
