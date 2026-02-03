@@ -1,3 +1,1 @@
-setPosts(prev =>
-  prev.map(p => p._id === updated._id ? updated : p)
-)
+GET /api/posts?page=1&limit=5
