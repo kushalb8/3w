@@ -1,1 +1,3 @@
-GET /api/posts?page=1&limit=5
+Post.find()
+.skip((page-1)*limit)
+.limit(limit)
